@@ -1,0 +1,73 @@
+.framee {
+    background-color: #242d36;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.framee .overlap-group-wrapperr {
+    background-color: #242d36;
+    height: 816px;
+    width: 1200px;
+}
+
+.framee .overlap-groupp {
+    background-color: #242d36;
+    height: 800px;
+    left: 9px;
+    position: relative;
+    top: 8px;
+    width: 1184px;
+}
+
+.framee .overlapp {
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 60px;
+    left: 497px;
+    position: absolute;
+    top: 500px;
+    width: 187px;
+}
+
+.framee .text-wrapperrr {
+    color: #242d36;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 33px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 123px;
+}
+
+.framee .divv {
+    color: #ffffff;
+    font-family: "Roboto Mono-Regular", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 412px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 239px;
+    width: 357px;
+}
+
+.framee .ppp {
+    color: #ffffff;
+    font-family: "Roboto Mono-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 328px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 349px;
+    width: 527px;
+}

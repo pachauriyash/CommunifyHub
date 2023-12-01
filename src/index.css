@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  color: rgb(207, 224, 224);
+}
+
+body {
+  min-height: 100vh;
+  background-color:#242d36;
+  ;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  min-height: 100vh; 
+  /* padding: 0.5rem 0.5rem; */
+}
+/* homepage styling */
+.home-page {
+
+  width: 100%;
+}
+
+.card-container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.toggle-buttons {
+  display: flex;
+  padding-left: 1%;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+.toggle-buttons button {
+  padding: 10px 20px;
+  margin-right: 5px;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: #616060;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  max-width: 250px; /* Adjust the width as needed */
+}
+
+.toggle-buttons button.active {
+  background-color: #dfdfdf;
+  color:#333333;
+  
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}

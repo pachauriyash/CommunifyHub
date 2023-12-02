@@ -1,9 +1,10 @@
 import './App.css';
 import  { useState,useEffect } from 'react';
-import { BrowserRouter,Routes, Route, Navigate} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Login from './pages/login'
 import Home from './pages/home'
 import Register from './pages/register'
+
 // import Nav from './components/navbar'
 import axios from 'axios';
 import ClassPage from './pages/classdetail';
@@ -45,8 +46,9 @@ function App() {
   
 
   return (
-    <div className="App">
-      <BrowserRouter>
+
+<Router>
+
       {/* <Nav /> */}
       <Routes>
       <Route path='/c/:id'  element={isLoggedIn ?<ClassPage userdata={user}  setloginstatus={setloginstatus}/>:<Navigate to='/login' />}/>
@@ -55,14 +57,14 @@ function App() {
         <Route path='/register' element={<Register />} />
         {/* <Route path='*' element={<Navigate to='/home' />} /> */}
         <Route path='/home' element={isLoggedIn ?<Home userdata={user}  setloginstatus={setloginstatus}/> :<Navigate to='/login' />} />
-        <Route path='/' element={!isLoggedIn ? <Framee /> :<Navigate to='/home' />} />
+        <Route exact path='/' element={!isLoggedIn ? <Framee /> :<Navigate to='/home' />} />
         {/* <Route path='/fileupload' element={<FileUploadForm />}/> */}
         
       
         
       </Routes>
-    </BrowserRouter>
-    </div>
+
+</Router>
   );
 }
 

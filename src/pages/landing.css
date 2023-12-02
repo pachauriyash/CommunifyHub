@@ -1,73 +1,61 @@
-.framee {
-    background-color: #242d36;
+
+.centered-page {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    width: 100%;
-}
-
-.framee .overlap-group-wrapperr {
-    background-color: #242d36;
-    height: 816px;
-    width: 1200px;
-}
-
-.framee .overlap-groupp {
-    background-color: #242d36;
-    height: 800px;
-    left: 9px;
-    position: relative;
-    top: 8px;
-    width: 1184px;
-}
-
-.framee .overlapp {
-    background-color: #ffffff;
-    border-radius: 4px;
-    height: 60px;
-    left: 497px;
-    position: absolute;
-    top: 500px;
-    width: 187px;
-}
-
-.framee .text-wrapperrr {
-    color: #242d36;
+    align-items: start;
+    height: 100vh; /* Adjust as needed for full viewport height */
+  }
+  
+  .centered-containerrr {
+    margin-top: 20%;
+    align-items: center;
+    text-align: center;
+  }
+  .App {
+    text-align: center;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .headinggg {
+    color: #ffffff!important;
+    font-size: 28px;
+    margin-bottom: 3%;
     font-family: "Roboto-Regular", Helvetica;
-    font-size: 24px;
     font-weight: 400;
-    left: 33px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 15px;
-    width: 123px;
-}
-
-.framee .divv {
-    color: #ffffff;
-    font-family: "Roboto Mono-Regular", Helvetica;
-    font-size: 48px;
-    font-weight: 400;
-    left: 412px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 239px;
-    width: 357px;
-}
-
-.framee .ppp {
-    color: #ffffff;
-    font-family: "Roboto Mono-Regular", Helvetica;
-    font-size: 24px;
-    font-weight: 400;
-    left: 328px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 349px;
-    width: 527px;
-}
+  }
+  
+  .subheadinggg {
+    color: #ffffff !important;
+  font-size: 18px;
+  max-width: 40%; /* Changed 'width' to 'max-width' for responsiveness */
+  margin: 0 auto; /* Center the subheading horizontally */
+  margin-bottom: 2%;
+  font-family: "Roboto Mono-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  }
+  
+  .action-buttonn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #242d36;
+    background-color: #ffffff;
+    border: none;
+    width: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin: 0 auto; /* Center the action-button horizontally */
+    text-decoration: none; /* Disable default link styling */
+    display: inline-block; /* Ensure the button is treated as a block-level element */
+  }
+  
+  

@@ -40,6 +40,7 @@ const ClassPage = (props) => {
 
   
   return (
+    <div className='App'>
     <div className="class-page">
       <CenteredNavbar activeLink={activeLink} handleLinkClick={handleLinkClick} userdata={props.userdata} setloginstatus={props.setloginstatus} />
       {err ? (
@@ -49,6 +50,7 @@ const ClassPage = (props) => {
       )}
       {/* {activeLink === 'work' && <WorkComponent classData={classData} />} */}
       {activeLink === 'people' && <PeopleComponent participantDetails={participantDetails} classData={classData} />}
+    </div>
     </div>
   );
 };

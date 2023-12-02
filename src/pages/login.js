@@ -56,7 +56,7 @@ const Login = (props) => {
 
   
     return (
-      <>
+      <div className='App'>
       {props.isLoggedIn
       ?
       (<section>
@@ -93,7 +93,7 @@ const Login = (props) => {
           
         </form>
         </section>)}
-      </>
+      </div>
     );
   };
   

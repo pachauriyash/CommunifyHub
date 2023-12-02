@@ -36,6 +36,7 @@ const HomePage = (props) => {
     };
   
     return (
+      <div className='App'>
       <div className="home-page">
       <Nav userdata={props.userdata} setloginstatus={props.setloginstatus} />
         <div className="toggle-buttons">
@@ -61,6 +62,7 @@ const HomePage = (props) => {
             />
           ))}
         </div>
+      </div>
       </div>
     );
   };

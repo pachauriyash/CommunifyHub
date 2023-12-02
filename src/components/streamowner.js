@@ -90,7 +90,7 @@ if (!content && !selectedFile) {
     );
 
     // Handle the server response as needed
-    console.log(response);
+    // console.log(response);
 
     // Clear the selected file
     setSelectedFile(null);

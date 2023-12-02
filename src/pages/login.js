@@ -89,6 +89,10 @@ const Login = (props) => {
             Register
           </Link>
                             {/* <a href="#">Sign In</a> */}
+          <br/>
+          Demo Login:<br/>
+          Username: test@testing.com<br/>
+          Password: Test@user1
            </p>
           
         </form>

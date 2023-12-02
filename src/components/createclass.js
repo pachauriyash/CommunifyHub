@@ -23,7 +23,7 @@ const CreateClassPopup = ({ onClose  }) => {
         withCredentials: true
       });
       // Handle response if needed
-      console.log(response);
+      // console.log(response);
       onClose();
     } catch (error) {
       // Handle error if needed

@@ -50,12 +50,14 @@
     background-color: #ffffff;
     border: none;
     width: 15%;
+    
     border-radius: 5px;
     cursor: pointer;
     margin-top: 2%;
     margin: 0 auto; /* Center the action-button horizontally */
     text-decoration: none; /* Disable default link styling */
     display: inline-block; /* Ensure the button is treated as a block-level element */
+    margin-right: 10px !important;
   }
   
   

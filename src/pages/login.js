@@ -57,6 +57,7 @@ const Login = (props) => {
   
     return (
       <div className='App'>
+        
       {props.isLoggedIn
       ?
       (<section>
@@ -88,11 +89,18 @@ const Login = (props) => {
           <Link to="/register" className="btn2 btn-secondary">
             Register
           </Link>
+          <Link to="/" className="btn2 btn-secondary">
+            Home
+          </Link>
                             {/* <a href="#">Sign In</a> */}
+          <br/>
           <br/>
           Demo Login:<br/>
           Username: test@testing.com<br/>
           Password: Test@user1
+          <br/>
+          <br/>
+          Note: Server might take a minute to spin up.
            </p>
           
         </form>

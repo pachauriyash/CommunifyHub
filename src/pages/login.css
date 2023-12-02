@@ -130,6 +130,7 @@ section {
 .btn-secondary {
   background-color: #6c757d;
   color: #fff;
+  margin-right: 10px;
 }
 
 .btn-secondary:hover {

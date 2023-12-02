@@ -26,6 +26,10 @@ const Framee = () => {
           <Link to="/login">
             <button className="action-buttonn">Get Started</button>
           </Link>
+          <Link to="https://github.com/pachauriyash/CommunifyHub">
+            <button className="action-buttonn">Github Repo</button>
+          </Link>
+            {/* <a href="https://github.com/pachauriyash/CommunifyHub" className="action-button">Github: https://github.com/pachauriyash/CommunifyHub</a> */}
         </div>
       </div>
     </div>

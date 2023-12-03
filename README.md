@@ -14,7 +14,6 @@ Welcome to Communify! This platform empowers individuals and organisations to es
 - [Contributing](#contributing)
 - [Live Demo](#live-demo)
 - [Screenshots](#screenshots)
-- [Demo Video](#demo-video)
 - [Support](#support)
 
 
@@ -66,11 +65,18 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 A live demo of the Classroom Project can be accessed https://communify-pachauriyash.vercel.app/
 
 ## Screenshots
+<img width="1440" alt="Screenshot 2023-12-02 at 6 04 57 AM" src="https://github.com/pachauriyash/CommunifyHub/assets/86353193/c7a63e09-8d54-40b5-a902-6a46a5f2fe6e">
 
+<img width="1440" alt="Screenshot 2023-12-02 at 6 05 05 AM" src="https://github.com/pachauriyash/CommunifyHub/assets/86353193/3b3a722c-22d6-42c6-9815-c8c322187211">
 
-## Demo Video
+<img width="1440" alt="Screenshot 2023-12-02 at 6 05 32 AM" src="https://github.com/pachauriyash/CommunifyHub/assets/86353193/f715f30e-8b63-4ec8-b3ed-47d80731cc43">
+<img width="1440" alt="Screenshot 2023-12-02 at 6 05 39 AM" src="https://github.com/pachauriyash/CommunifyHub/assets/86353193/0fd485fb-4ef7-41f1-9dea-3e1a84cfaa06">
 
+<img width="1440" alt="Screenshot 2023-12-02 at 6 05 46 AM" src="https://github.com/pachauriyash/CommunifyHub/assets/86353193/ce5fe2c4-f34d-42a0-ad8d-f5cf0ba63d8e">
 
+<img width="1440" alt="Screenshot 2023-12-02 at 6 05 53 AM" src="https://github.com/pachauriyash/CommunifyHub/assets/86353193/c047b2d8-218a-43f4-8f94-57616df22504">
+
+<img width="1440" alt="Screenshot 2023-12-02 at 6 06 00 AM" src="https://github.com/pachauriyash/CommunifyHub/assets/86353193/8f196c15-07a2-4809-83c0-6271ad398f28">
 
 
 
